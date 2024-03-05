@@ -1,0 +1,103 @@
+:host{
+    --primary-bg: #1b1b1b;
+    --black-bg: #000000;
+    --font-color: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--primary-bg);
+    margin-bottom: 40px;
+    padding: 20px;
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main{}
+main .profile-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+main .profile-info img{
+    width: 200px;
+    border-radius: 100%;
+}
+main .profile-info h2{
+    margin-top: 20px;
+}
+main .profile-info span{}
+
+main .personal-info{
+    margin-bottom: 40px;
+}
+main .personal-info h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main .personal-info p{}
+
+main .technology-experiences{
+    margin-bottom: 40px;
+}
+main .technology-experiences h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .technology-experiences .technologies-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+main .technology-experiences .technologies-box .technology-card{
+    background-color: var(--primary-bg);
+    padding: 20px;
+    border: 1px solid var(--font-color);
+    border-radius: 20px;
+}
+main .technology-experiences .technologies-box .technology-card img{
+    width: 100px;
+}
+
+footer{
+    background-color: var(--primary-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+footer h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{}
+footer ul li a{
+    text-decoration: none;
+    font-size: large;
+}
+footer ul li a span{
+    font-weight: bold;
+}
