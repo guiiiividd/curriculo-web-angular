@@ -81,9 +81,19 @@ main .technology-experiences .technologies-box .technology-card{
     padding: 20px;
     border: 1px solid var(--font-color);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
 main .technology-experiences .technologies-box .technology-card img{
     width: 100px;
+}
+
+main .technology-experiences .technologies-box .technology-card span{
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 footer{
@@ -110,4 +120,9 @@ footer ul li a{
 }
 footer ul li a span{
     font-weight: bold;
+}
+
+footer ul li a img{
+    width: 25px;
+    margin-right: 10px;
 }
