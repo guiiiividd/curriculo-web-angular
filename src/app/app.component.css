@@ -9,6 +9,7 @@
     margin: 0;
     box-sizing: border-box;
     color: var(--font-color);
+    font-family: "Roboto", sans-serif;
 }
 
 .container{
@@ -40,8 +41,11 @@ main .profile-info img{
 }
 main .profile-info h2{
     margin-top: 20px;
+    font-size: 2rem;
 }
-main .profile-info span{}
+main .profile-info span{
+    font-size: 1.2rem;
+}
 
 main .personal-info{
     margin-bottom: 40px;
@@ -50,8 +54,11 @@ main .personal-info h2{
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.8rem;
 }
-main .personal-info p{}
+main .personal-info p{
+    font-size: 1.2rem;
+}
 
 main .technology-experiences{
     margin-bottom: 40px;
@@ -60,6 +67,7 @@ main .technology-experiences h2{
     margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 1.8rem;
 }
 
 main .technology-experiences .technologies-box{
@@ -93,10 +101,12 @@ footer h1{
 footer ul{
     list-style: none;
 }
-footer ul li{}
+footer ul li{
+    margin-bottom: 10px;
+}
 footer ul li a{
     text-decoration: none;
-    font-size: large;
+    font-size: 1.2rem;
 }
 footer ul li a span{
     font-weight: bold;
